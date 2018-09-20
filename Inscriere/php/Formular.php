@@ -7,7 +7,7 @@
 
 <body>
 
-	<p>IT-Labs</p>
+	<p style="position: sticky;">IT-Labs</p>
 
 	<form method="POST" action="" name="myform">
 		
