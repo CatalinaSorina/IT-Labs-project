@@ -1,0 +1,6 @@
+USE [Cursanti]
+ALTER TABLE [dbo].[Cursanti] REBUILD PARTITION = ALL
+WITH 
+(DATA_COMPRESSION = NONE
+)
+

@@ -1,0 +1,40 @@
+body {
+	padding: 0px;
+	margin: 0px;
+	background-color: #bbbbff;
+	background-position: center;
+}
+
+form {
+	text-align:left;
+	width: 30%;
+	margin: auto;
+	padding: 20px;
+	color: white;
+	font: verdana;
+	background-color: #000080;
+	border: 3px groove #ffffff;
+	border-radius: 7px;
+}
+
+button {
+	color: #800000;
+	font: verdana;
+	border: 3px solid #400000;
+	background-color: #ff8040;
+	border-radius: 7px;
+}
+
+input{
+	text-align: center;
+}
+
+p {
+	margin: 30px auto;
+	margin-left: 30px;
+	padding: 5px;
+	color: white;
+	font: 20px verdana;
+	background-color: #000080;
+	border: 1px dotted solid #ffffff;
+}
