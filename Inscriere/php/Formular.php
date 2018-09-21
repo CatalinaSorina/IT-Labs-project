@@ -3,6 +3,7 @@
 <head>
 <title>IT-Labs: Inscriere la curs</title>
 <link rel="stylesheet" href="../css/Formular.css">
+<script src="../js/jquerymin.js"></script>
 </head>
 
 <body>
@@ -78,10 +79,23 @@
 		</table>
 	</form>
 
+<script type="text/javascript">
+	function inregistrare(){
+		var nume=$("#nume"+nr).val();
+		var prenume=$("#prenume"+nr).val();
+		var email=$("#email"+nr).val();
+		var tel=$("#tel"+nr).val();
+		var studii=$("#studii"+nr).val();
+		var reclama=$("#reclama"+nr).val();
+		var nivEng=$("#nivEng"+nr).val();
+		var prelucrareDate=$("#prelucrareDate"+nr).val();
+		var url="http://localhost/IT-Labs-project/Inscriere/php/IntroducereDate.php?actiune=inregistrare&nume="
+			+nume+"&prenume="+prenume+"&email="+email+"&tel="+tel+"&studii="+studii+"&reclama="+reclama+"&nivEng="+nivEng
+			+"&prelucrareDate="+prelucrareDate;
+		location.assign(url);
+	}
 
-	<script src="../js/Formular.js">	
-		</script>
-
+</script>
 
 </body>
 </html>
